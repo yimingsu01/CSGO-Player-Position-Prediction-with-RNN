@@ -13,3 +13,10 @@ Huge shoutout to [awpy](https://github.com/pnxenopoulos/awpy) for providing a wa
 # How to use this repo
 Download the script, download a demo that you wish to analyze, and download the layout image of the map in the demo.
 
+For the script, you need to pass in these arguments:
+- `--layout`: path to map layout image
+- `--demo`: path to demo file
+- `--side`: side of players to predict positions, values: (`ct` or `t`)
+- `--model`: model type, values: (`rnn` or `ltsm`)
+- `--output`: path of output predicted png files
+- `--debug`: optional, no effect yet.
