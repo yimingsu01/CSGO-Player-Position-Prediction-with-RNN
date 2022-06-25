@@ -5,10 +5,19 @@ This repo predicts the position of the players one side at a time.
 
 Huge shoutout to [awpy](https://github.com/pnxenopoulos/awpy) for providing a way to parse CS:GO demos.  
 
+Note: The requirement file contains other redundant modules for this repo. You can still use it but I recommend install the requirements in a python virtual environment.
+
+The actual required modules are:
+- `awpy`
+- `numpy`
+- `keras`
+- `matplotlib`
+- `PIL`
+
 # Todo
 - [ ] Experiment with more timestep
-- [ ] Change hardcoded image length and width.
-- [ ] Automate the entire process into a script
+- [x] Change hardcoded image length and width.
+- [x] Automate the entire process into a script
 
 # How to use this repo
 Download the script, download a demo that you wish to analyze, and download the layout image of the map in the demo.
