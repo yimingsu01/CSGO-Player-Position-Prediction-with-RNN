@@ -15,7 +15,7 @@ The actual required modules are:
 - `PIL`
 
 # Todo
-- [ ] Experiment with more timestep
+- [ ] Experiment with more timesteps and more training data
 - [x] Change hardcoded image length and width.
 - [x] Automate the entire process into a script
 
